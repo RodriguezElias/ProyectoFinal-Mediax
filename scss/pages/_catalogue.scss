@@ -1,0 +1,27 @@
+.Catalogue__image--BackgroundColor{
+    background-color: $color-background-primary;
+}
+
+.pushbar{
+    background:$color-background-primary ;
+    color: #ffffff;
+    padding: 20px;
+    width: 50%!important;
+    
+}
+.pushbar .btn-cerrar button{
+    background: none;
+    color: #808080;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.pushbar-menu a {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.pushbar-menu a:hover{
+    color: #ffffff;
+}
+
+

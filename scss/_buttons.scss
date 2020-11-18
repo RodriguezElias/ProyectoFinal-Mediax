@@ -1,0 +1,39 @@
+.buttonWatch{
+    background: transparent;
+    border: solid 1px;
+    border-radius: 1.5em;
+    padding: 0.4em 1.87em ;
+    color: #FFFFFF;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+.buttonPlay{
+  background: #6c31e4;
+  border: none;
+  border-radius: 1.5em;
+  padding: 0.4em 1.87em;
+  color: #ffffff;
+  margin-right: 1.25em;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  font-size: 1.12em;
+}
+.containerMovieInfo .buttonInfo {
+  background: #bdb8b852;
+  border: none;
+  border-radius: 1.5em;
+  padding: 0.4em 1.87em;
+  color: #ffffff;
+  margin-right: 1.25em;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  font-size: 1.12em;
+}
+.buttonPlay:hover,
+.containerMovieInfo .buttonInfo:hover,
+.buttonWatch:hover {
+  background: #ffffff;
+  color: black;
+}

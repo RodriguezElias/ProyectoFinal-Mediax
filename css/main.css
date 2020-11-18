@@ -1,0 +1,521 @@
+.blackGradient {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(20, 19, 19, 0)), color-stop(85%, #141313));
+  background-image: linear-gradient(180deg, rgba(20, 19, 19, 0) 20%, #141313 85%);
+}
+
+.marginAuto {
+  margin: auto;
+}
+
+.body--color {
+  background-color: #141313;
+  scroll-behavior: smooth;
+}
+
+.nav--color {
+  background: #141313 !important;
+}
+
+.padding-0 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.show > .nav-link,
+.active > .nav-link,
+.nav-link.show,
+.nav-link.active {
+  border-bottom: solid 1px #ffffff;
+}
+
+.searchBs {
+  display: none;
+}
+
+.mySearchBox {
+  display: block;
+}
+
+.searchBs {
+  display: none;
+}
+
+.mySearchBox {
+  display: block;
+  margin-top: 40px;
+}
+
+.mySearchBox form {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  width: 30px;
+  height: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.mySearchBox form input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.fa {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 11px;
+  width: 37.8px;
+  height: 37.8px;
+  position: absolute;
+  top: -8px;
+  right: -5px;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2em;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+form:hover {
+  width: 200px;
+  cursor: pointer;
+}
+
+form:hover input {
+  display: block;
+}
+
+form:hover .fa {
+  background: #07051a;
+  color: white;
+  padding: 10px;
+}
+
+.buttonWatch {
+  background: transparent;
+  border: solid 1px;
+  border-radius: 1.5em;
+  padding: 0.4em 1.87em;
+  color: #FFFFFF;
+  margin-right: 1.25em;
+  cursor: pointer;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  font-size: 1.12em;
+}
+
+.buttonPlay {
+  background: #6c31e4;
+  border: none;
+  border-radius: 1.5em;
+  padding: 0.4em 1.87em;
+  color: #ffffff;
+  margin-right: 1.25em;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  font-size: 1.12em;
+}
+
+.containerMovieInfo .buttonInfo {
+  background: #bdb8b852;
+  border: none;
+  border-radius: 1.5em;
+  padding: 0.4em 1.87em;
+  color: #ffffff;
+  margin-right: 1.25em;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  font-size: 1.12em;
+}
+
+.buttonPlay:hover,
+.containerMovieInfo .buttonInfo:hover,
+.buttonWatch:hover {
+  background: #ffffff;
+  color: black;
+}
+
+.titleMovie--backgroundColor {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#220e36), color-stop(#331353), color-stop(#451673), color-stop(#571993), to(#6b1ab5));
+  background-image: linear-gradient(to top, #220e36, #331353, #451673, #571993, #6b1ab5);
+}
+
+.titleMovie--height {
+  height: auto;
+}
+
+.titleMovie__img {
+  min-width: 58px;
+  width: 58px;
+  height: 87px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.trailer--height {
+  height: 90vh;
+}
+
+.footer--backgrounColor {
+  background-color: #6e2eef9c;
+}
+
+/*Creamos el bucle para usar los valores del mapa*/
+.redSocial--twitter {
+  color: #41a4f0;
+}
+
+.redSocial--facebook {
+  color: #03246d;
+}
+
+.redSocial--google-plus {
+  color: #e91e1e;
+}
+
+.redSocial--linkedin {
+  color: #0a66c2;
+}
+
+.redSocial--instagram {
+  color: #cb0075;
+}
+
+.redSocial__icon--widht {
+  font-size: 1.5rem;
+}
+
+br {
+  display: none;
+}
+
+.form__container--padding {
+  padding-top: 10em;
+}
+
+.form__containerLogin--margin {
+  margin: auto;
+  margin-bottom: 16em;
+}
+
+.form__containerRegister--margin {
+  margin: auto;
+  margin-bottom: 12em;
+}
+
+.form__input--widht {
+  width: 25%;
+}
+
+.w-100 {
+  height: 90vh;
+}
+
+.carousel__text--align {
+  bottom: 25%;
+  text-align: start;
+}
+
+.carousel__titleMovie {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 2.8em;
+}
+
+.carousel__subtitleMovie {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  max-width: 70%;
+  margin-bottom: 1em;
+}
+
+.carousel__descriptionMovie {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  max-width: 60%;
+  margin-bottom: 1.25em;
+}
+
+.imgCar1 {
+  width: 335px;
+  height: 200px;
+}
+
+.slick-dots li button:before {
+  color: #FFFFFF !important;
+}
+
+.imgCar2 {
+  width: 335px;
+  height: 450px;
+}
+
+.card {
+  background-color: #141313;
+}
+
+.Catalogue__image--BackgroundColor {
+  background-color: #141313;
+}
+
+.pushbar {
+  background: #141313;
+  color: #ffffff;
+  padding: 20px;
+  width: 50% !important;
+}
+
+.pushbar .btn-cerrar button {
+  background: none;
+  color: #808080;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.pushbar-menu a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.pushbar-menu a:hover {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1366px) {
+  .form__input--widht {
+    width: 50%;
+  }
+  .form__container--padding {
+    padding-top: 5em;
+  }
+  .searchBs {
+    display: none;
+  }
+  .mySearchBox {
+    display: block;
+  }
+  br {
+    display: none;
+  }
+  .w-100 {
+    height: 70vh;
+  }
+  .carousel__text--align {
+    bottom: 20%;
+  }
+  .buttonPlay {
+    padding: 0.4em 2em;
+  }
+  .containerMovieInfo .buttonInfo {
+    padding: 0.4em 2em;
+  }
+  .imgCar1 {
+    width: 100%;
+    height: 150px;
+  }
+  .imgCar2 {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .form__input--widht {
+    width: 50%;
+  }
+  .form__container--padding {
+    padding-top: 5em;
+  }
+  .searchBs {
+    display: block;
+  }
+  .mySearchBox {
+    display: none;
+  }
+  br {
+    display: none;
+  }
+  .w-100 {
+    height: 66vh;
+  }
+  .carousel__text--align {
+    bottom: 15%;
+  }
+  .carousel__subtitleMovie {
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+  }
+  .carousel__titleMovie {
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 0.2rem;
+  }
+  .carousel__descriptionMovie {
+    font-size: 0.8em;
+    line-height: 1em;
+    max-width: 70%;
+    margin-bottom: 1.25em;
+  }
+  .buttonPlay {
+    padding: 0.4em 2em;
+  }
+  .containerMovieInfo .buttonInfo {
+    padding: 0.4em 2em;
+  }
+  .imgCar1 {
+    width: 100%;
+    height: 120px;
+  }
+  .imgCar2 {
+    width: 100%;
+    height: 400px;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form__input--widht {
+    width: 100%;
+  }
+  .form__container--padding {
+    padding-top: 5em;
+  }
+  .searchBs {
+    display: block;
+  }
+  .mySearchBox {
+    display: none;
+  }
+  br {
+    display: none;
+  }
+  .w-100 {
+    height: 60vh;
+  }
+  .carousel__text--align {
+    bottom: 25%;
+  }
+  .d-none {
+    display: block !important;
+  }
+  .carousel__titleMovie {
+    font-weight: 900;
+    font-size: 1.7em;
+    margin-bottom: 0.2rem;
+  }
+  .buttonPlay {
+    padding: 0.2em 2em;
+  }
+  .containerMovieInfo .buttonInfo {
+    padding: 0.2em 2em;
+  }
+  .imgCar1 {
+    width: 100%;
+    height: 120px;
+  }
+  .imgCar2 {
+    width: 100%;
+    height: 400px;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .searchBs {
+    display: block;
+  }
+  .mySearchBox {
+    display: none;
+  }
+  .w-100 {
+    height: 52vh;
+  }
+  .carousel__text--align {
+    bottom: 10%;
+  }
+  .buttonPlay {
+    padding: 0.2em 2em;
+    font-size: 0.9em;
+  }
+  .containerMovieInfo .buttonInfo {
+    padding: 0.2em 2em;
+    font-size: 0.9em;
+  }
+  .carousel__titleMovie {
+    font-size: 1em;
+  }
+  .carousel__subtitleMovie {
+    font-size: 0.6em;
+  }
+  .carousel__descriptionMovie {
+    font-size: 0.6em;
+    line-height: 1.1em;
+  }
+  .imgCar1 {
+    width: 100%;
+    height: 90px;
+  }
+  .imgCar2 {
+    width: 100%;
+    height: 300px;
+  }
+  .card-title {
+    margin-bottom: 0rem;
+    font-size: 1.5rem;
+  }
+  br {
+    display: block;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .w-100 {
+    height: 45vh;
+  }
+  .imgCar1 {
+    width: 100%;
+    height: 90px;
+  }
+  .imgCar2 {
+    width: 100%;
+    height: 300px;
+  }
+  br {
+    display: block;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

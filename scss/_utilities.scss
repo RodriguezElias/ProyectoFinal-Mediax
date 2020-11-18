@@ -1,0 +1,23 @@
+.marginAuto{
+    margin: auto;
+}
+
+.body--color{
+    background-color: $color-background-primary;
+    scroll-behavior: smooth;
+  }
+.nav--color{
+    background: $color-background-primary !important;
+  }
+
+.padding-0{
+    padding-right:0px;
+    padding-left:0px;
+}
+.show > .nav-link,
+.active > .nav-link,
+.nav-link.show,
+.nav-link.active{
+    border-bottom: solid 1px #ffffff;
+  }
+

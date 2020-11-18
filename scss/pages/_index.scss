@@ -1,0 +1,51 @@
+
+
+.w-100{
+    height: 90vh;
+}
+
+.carousel__text--align{
+    bottom: 25%;
+    text-align: start;
+    
+}
+.carousel__titleMovie{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2.8em;
+}
+.carousel__subtitleMovie{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    max-width: 70%;
+    margin-bottom: 1em;
+}
+.carousel__descriptionMovie{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    max-width: 60%;
+    margin-bottom: 1.25em;
+    
+}
+.imgCar1{
+    width: 335px;
+    height: 200px; 
+}
+.slick-dots li button:before {
+    color:#FFFFFF!important; 
+}
+
+.imgCar2{
+    width: 335px;
+    height: 450px;
+}
+
+.card{
+    background-color: $color-background-primary;
+
+}
+

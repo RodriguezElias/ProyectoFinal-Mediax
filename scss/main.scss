@@ -1,0 +1,239 @@
+@import "colors";
+@import "utilities";
+@import "searchs";
+@import "buttons";
+//---------------------------------pages--------------
+@import "pages/trailer";
+@import "pages/login&register";
+@import "pages/index";
+@import "pages/catalogue";
+
+
+
+
+
+
+
+//-----------------------------------media querys------------------------------------------------//
+
+@media only screen and (max-width: 1366px) {
+    .form__input--widht {
+      width: 50%;
+    }
+    .form__container--padding {
+      padding-top: 5em;
+    }
+    .searchBs {
+      display: none;
+    }
+    .mySearchBox {
+      display: block;
+    }
+    br{display: none;}
+
+
+    .w-100{
+        height: 70vh;
+    }
+    .carousel__text--align{
+        bottom: 20%;
+    }
+    
+    .buttonPlay{
+        padding: 0.4em 2em;
+    }
+    .containerMovieInfo .buttonInfo{
+        padding: 0.4em 2em;
+    }
+    .imgCar1{
+        width: 100%;
+        height: 150px;
+    }
+    .imgCar2{
+        width: 100%;
+        height: 400px;
+    }
+  
+
+}
+
+@media only screen and (max-width: 768px) {
+    .form__input--widht {
+      width: 50%;
+    }
+    .form__container--padding {
+      padding-top: 5em;
+    }
+    .searchBs {
+      display: block;
+    }
+    .mySearchBox {
+      display: none;
+    }
+    br{display: none;}
+
+    .w-100{
+        height: 66vh;
+    }
+    .carousel__text--align{
+        bottom: 15%;
+    }
+    .carousel__subtitleMovie{
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+    }
+    .carousel__titleMovie{
+        font-weight: 900;
+        font-size: 2em;
+        margin-bottom: 0.2rem;
+    }
+    .carousel__descriptionMovie{
+        font-size: 0.8em;
+        line-height: 1em;
+        max-width: 70%;
+        margin-bottom: 1.25em;
+        
+    }
+    .buttonPlay{
+        padding: 0.4em 2em;
+    }
+    .containerMovieInfo .buttonInfo{
+        padding: 0.4em 2em;
+    }
+    .imgCar1{
+        width: 100%;
+        height: 120px;
+    }
+    .imgCar2{
+        width: 100%;
+        height: 400px;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+  
+
+}
+
+
+  
+  @media only screen and (max-width: 600px) {
+    .form__input--widht {
+      width: 100%;
+    }
+    .form__container--padding {
+      padding-top: 5em;
+    }
+    .searchBs {
+      display: block;
+    }
+    .mySearchBox {
+      display: none;
+    }
+    br{display: none;}
+
+    .w-100{
+        height: 60vh;
+    }
+
+    .carousel__text--align{
+        bottom: 25%;
+    }
+    .d-none {
+        display: block!important;
+    }
+    .carousel__titleMovie{
+        font-weight: 900;
+        font-size: 1.7em;
+        margin-bottom: 0.2rem;
+    }
+    .buttonPlay{
+        padding: 0.2em 2em;
+    }
+    .containerMovieInfo .buttonInfo{
+        padding: 0.2em 2em;
+    }
+    .imgCar1{
+        width: 100%;
+        height: 120px;
+    }
+    .imgCar2{
+        width: 100%;
+        height: 400px;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .searchBs{
+        display: block;}
+    .mySearchBox{
+        display: none;
+    }
+    .w-100{
+        height: 52vh;
+    }
+    .carousel__text--align{
+        bottom: 10%;
+    }
+    .buttonPlay{
+        padding: 0.2em 2em ;
+        font-size: 0.9em;
+    }
+    .containerMovieInfo .buttonInfo{
+        padding: 0.2em 2em ;
+        font-size: 0.9em;
+    }
+    .carousel__titleMovie{
+        font-size: 1em;
+    }
+    .carousel__subtitleMovie{
+        font-size: 0.6em;
+    }
+    .carousel__descriptionMovie{
+        font-size: 0.6em;
+        line-height: 1.1em;
+    }
+    .imgCar1{
+        width: 100%;
+        height: 90px;
+    }
+    .imgCar2{
+        width: 100%;
+        height: 300px;
+    }
+    .card-title{
+        margin-bottom: 0rem;
+        font-size: 1.5rem;
+    }
+    br{display: block;}
+    h4{
+        font-size: 0.9rem;
+    }
+
+  
+
+    }
+
+    @media only screen and (max-width: 320px) {
+        .w-100{
+            height: 45vh;
+        }
+        .imgCar1{
+            width: 100%;
+            height: 90px;
+        }
+        .imgCar2{
+            width: 100%;
+            height: 300px;
+        }
+        br{display: block;}
+        h4{
+            font-size: 0.9rem;
+        }
+    
+      
+    
+        }
+  
