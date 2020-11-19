@@ -2,6 +2,21 @@ $color-background-primary:#141313;
 $color-background-secondary:#6e2eef9c;
 $color-background-secondary-gradient:linear-gradient(to top, #220e36, #331353, #451673, #571993, #6b1ab5);
 $background-color: #222121;
+
+$opacity:(
+    1: 0,
+    2: 0.2,
+    3: 0.9
+);
+@each $number, $value in $opacity{
+    .opacity-#{$number}{
+        opacity: $value;
+    }
+}
+
+
 .blackGradient{
     background-image: linear-gradient(180deg, rgba(20, 19, 19, 0) 20%, #141313 85%);
 }
+
+

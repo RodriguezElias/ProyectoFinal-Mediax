@@ -1,3 +1,15 @@
+.opacity-1 {
+  opacity: 0;
+}
+
+.opacity-2 {
+  opacity: 0.2;
+}
+
+.opacity-3 {
+  opacity: 0.9;
+}
+
 .blackGradient {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(20, 19, 19, 0)), color-stop(85%, #141313));
   background-image: linear-gradient(180deg, rgba(20, 19, 19, 0) 20%, #141313 85%);
@@ -26,10 +38,6 @@
 .nav-link.show,
 .nav-link.active {
   border-bottom: solid 1px #ffffff;
-}
-
-.footer--backgrounColor {
-  background-color: #222121;
 }
 
 .searchBs {
@@ -155,7 +163,16 @@ form:hover .fa {
 .containerMovieInfo .buttonInfo:hover,
 .buttonWatch:hover {
   background: #ffffff;
-  color: black;
+  color: #000000;
+}
+
+.buttonPlay__link {
+  color: #FFFFFF;
+}
+
+.buttonPlay__link:hover {
+  color: #000000;
+  text-decoration: none;
 }
 
 .titleMovie--backgroundColor {
@@ -187,22 +204,42 @@ br {
   display: none;
 }
 
-.form__container--padding {
-  padding-top: 10em;
-}
-
 .form__containerLogin--margin {
   margin: auto;
-  margin-bottom: 16em;
+  margin-bottom: 10em;
 }
 
-.form__containerRegister--margin {
-  margin: auto;
-  margin-bottom: 12em;
+.bg-image {
+  background-image: url(/img/fondo_log&reg.jpeg);
+  height: 90vh;
+  background-size: cover;
 }
 
-.form__input--widht {
-  width: 25%;
+.register__form {
+  width: 35%;
+  height: 90%;
+  background: rgba(17, 17, 17, 0.959);
+  -webkit-box-shadow: 7px 13px 37px #000;
+          box-shadow: 7px 13px 37px #000;
+}
+
+.register__form a:hover {
+  text-decoration: underline;
+}
+
+.form__button {
+  background: #6e2eef9c;
+  color: #ffffff;
+}
+
+.form__button:hover {
+  background: #ffffff;
+  color: #000;
+}
+
+.form__controls {
+  background: #222121;
+  border: 1px solid #6e2eef9c;
 }
 
 .w-100 {
@@ -284,11 +321,15 @@ br {
   color: #ffffff;
 }
 
+.footer--backgroundColor {
+  background-color: #222121;
+}
+
 @media only screen and (max-width: 1366px) {
   .form__input--widht {
     width: 50%;
   }
-  .form__container--padding {
+  .register__container--padding {
     padding-top: 5em;
   }
   .searchBs {
@@ -319,6 +360,17 @@ br {
   .imgCar2 {
     width: 100%;
     height: 400px;
+  }
+  .register__form {
+    width: 35%;
+    height: 85%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .register__form {
+    width: 60%;
+    margin: auto;
   }
 }
 
@@ -375,6 +427,11 @@ br {
   }
   h4 {
     font-size: 1.2rem;
+  }
+  .register__form {
+    width: 90%;
+    height: 85%;
+    margin: auto;
   }
 }
 
@@ -495,6 +552,13 @@ br {
   }
   h4 {
     font-size: 0.9rem;
+  }
+  .register__form {
+    width: 100%;
+    height: 85%;
+  }
+  .navbar {
+    padding: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
