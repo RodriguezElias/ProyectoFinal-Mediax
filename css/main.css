@@ -28,6 +28,10 @@
   border-bottom: solid 1px #ffffff;
 }
 
+.footer--backgrounColor {
+  background-color: #222121;
+}
+
 .searchBs {
   display: none;
 }
@@ -172,32 +176,7 @@ form:hover .fa {
 }
 
 .trailer--height {
-  height: 90vh;
-}
-
-.footer--backgrounColor {
-  background-color: #6e2eef9c;
-}
-
-/*Creamos el bucle para usar los valores del mapa*/
-.redSocial--twitter {
-  color: #41a4f0;
-}
-
-.redSocial--facebook {
-  color: #03246d;
-}
-
-.redSocial--google-plus {
-  color: #e91e1e;
-}
-
-.redSocial--linkedin {
-  color: #0a66c2;
-}
-
-.redSocial--instagram {
-  color: #cb0075;
+  height: 78vh;
 }
 
 .redSocial__icon--widht {
@@ -322,7 +301,7 @@ br {
     display: none;
   }
   .w-100 {
-    height: 70vh;
+    height: 85vh;
   }
   .carousel__text--align {
     bottom: 20%;
