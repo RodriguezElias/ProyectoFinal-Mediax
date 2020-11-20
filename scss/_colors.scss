@@ -6,7 +6,8 @@ $background-color: #222121;
 $opacity:(
     1: 0,
     2: 0.2,
-    3: 0.9
+    3: 0.9,
+    4: 1
 );
 @each $number, $value in $opacity{
     .opacity-#{$number}{
@@ -17,6 +18,9 @@ $opacity:(
 
 .blackGradient{
     background-image: linear-gradient(180deg, rgba(20, 19, 19, 0) 20%, #141313 85%);
+}
+.blackGradient__subcription{
+    background-image: linear-gradient(180deg, rgba(20, 19, 19, 0) 50%, #141313 95%);
 }
 
 

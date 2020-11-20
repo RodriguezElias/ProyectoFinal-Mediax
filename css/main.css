@@ -10,9 +10,18 @@
   opacity: 0.9;
 }
 
+.opacity-4 {
+  opacity: 1;
+}
+
 .blackGradient {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(20, 19, 19, 0)), color-stop(85%, #141313));
   background-image: linear-gradient(180deg, rgba(20, 19, 19, 0) 20%, #141313 85%);
+}
+
+.blackGradient__subcription {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(20, 19, 19, 0)), color-stop(95%, #141313));
+  background-image: linear-gradient(180deg, rgba(20, 19, 19, 0) 50%, #141313 95%);
 }
 
 .marginAuto {
@@ -38,6 +47,10 @@
 .nav-link.show,
 .nav-link.active {
   border-bottom: solid 1px #ffffff;
+}
+
+.redSocial__icon--widht {
+  font-size: 1.5rem;
 }
 
 .searchBs {
@@ -194,10 +207,6 @@ form:hover .fa {
 
 .trailer--height {
   height: 78vh;
-}
-
-.redSocial__icon--widht {
-  font-size: 1.5rem;
 }
 
 br {
