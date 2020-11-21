@@ -11,7 +11,7 @@
 }
 
 .opacity-4 {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .blackGradient {
@@ -139,7 +139,6 @@ form:hover .fa {
   border-radius: 1.5em;
   padding: 0.4em 1.87em;
   color: #FFFFFF;
-  margin-right: 1.25em;
   cursor: pointer;
   -webkit-transition: .3s ease all;
   transition: .3s ease all;
@@ -152,7 +151,6 @@ form:hover .fa {
   border-radius: 1.5em;
   padding: 0.4em 1.87em;
   color: #ffffff;
-  margin-right: 1.25em;
   cursor: pointer;
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
@@ -165,7 +163,6 @@ form:hover .fa {
   border-radius: 1.5em;
   padding: 0.4em 1.87em;
   color: #ffffff;
-  margin-right: 1.25em;
   cursor: pointer;
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
@@ -507,7 +504,7 @@ br {
     bottom: 10%;
   }
   .buttonPlay {
-    padding: 0.2em 2em;
+    padding: 0.2em 1em;
     font-size: 0.9em;
   }
   .containerMovieInfo .buttonInfo {
