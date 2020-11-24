@@ -488,6 +488,9 @@ br {
   h4 {
     font-size: 1.2rem;
   }
+  .pushbar {
+    width: 80% !important;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -538,6 +541,9 @@ br {
   }
   h4 {
     font-size: 0.9rem;
+  }
+  .pushbar {
+    width: 100% !important;
   }
 }
 
