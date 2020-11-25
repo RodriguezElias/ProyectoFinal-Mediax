@@ -24,6 +24,11 @@
 .redSocial__icon--widht{
     font-size: 1.5rem;
 }
+.img-hover:hover{
+  transform: scale(1.2)!important;
+  transform-origin: center;
+  z-index: 1;
+}
 
 
 
