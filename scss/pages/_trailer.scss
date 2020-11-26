@@ -12,26 +12,7 @@
     box-sizing: border-box;
 }
 .trailer--height{
-    height:90vh;
-}
-.footer--backgrounColor{
-    background-color: $color-background-secondary;
-}
-$redes:(
-        twitter: #41a4f0,
-        facebook:  #03246d,
-        google-plus: #e91e1e,
-        linkedin: #0a66c2,
-        instagram:#cb0075
-);
-/*Creamos el bucle para usar los valores del mapa*/
-@each $redSocial, $color in $redes {
-   .redSocial--#{$redSocial} {
-       color: $color;
-   }
-}
-.redSocial__icon--widht{
-    font-size: 1.5rem;
+    height:78vh;
 }
 
 br{

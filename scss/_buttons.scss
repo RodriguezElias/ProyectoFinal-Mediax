@@ -4,7 +4,6 @@
     border-radius: 1.5em;
     padding: 0.4em 1.87em ;
     color: #FFFFFF;
-    margin-right: 1.25em;
     cursor: pointer;
     transition: .3s ease all;
     font-size: 1.12em;
@@ -15,7 +14,6 @@
   border-radius: 1.5em;
   padding: 0.4em 1.87em;
   color: #ffffff;
-  margin-right: 1.25em;
   cursor: pointer;
   transition: 0.3s ease all;
   font-size: 1.12em;
@@ -26,7 +24,6 @@
   border-radius: 1.5em;
   padding: 0.4em 1.87em;
   color: #ffffff;
-  margin-right: 1.25em;
   cursor: pointer;
   transition: 0.3s ease all;
   font-size: 1.12em;
@@ -35,5 +32,15 @@
 .containerMovieInfo .buttonInfo:hover,
 .buttonWatch:hover {
   background: #ffffff;
-  color: black;
+  color: #000000;
 }
+.buttonPlay__link{
+ color:#FFFFFF;
+ 
+}
+.buttonPlay__link:hover{
+  color: #000000;
+  text-decoration: none;
+}
+
+

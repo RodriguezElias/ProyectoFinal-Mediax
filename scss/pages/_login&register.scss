@@ -1,14 +1,40 @@
-   .form__container--padding{
-    padding-top: 10em;
-  }
+
   .form__containerLogin--margin{
     margin: auto;
-    margin-bottom: 16em;
+    margin-bottom: 10em;
   }
-  .form__containerRegister--margin{
-    margin: auto;
-    margin-bottom: 12em;
+  
+  
+
+  
+  
+.bg-image{
+  background-image: url(../img/fondo_log&reg.jpeg);
+  height: 90vh;
+  background-size: cover;
+}
+  .register__form{
+    width: 35%;
+    height: 90%;
+    background: rgba(17, 17, 17, 0.959);
+    box-shadow: 7px 13px 37px #000;
   }
-  .form__input--widht {
-    width: 25%;
+  .register__form a:hover{
+    text-decoration: underline;
   }
+  .form__button{
+    background: $color-background-secondary;
+    color: #ffffff;
+  }
+  .form__button:hover {
+    background:  #ffffff;
+    color: #000;
+  }
+
+.form__controls{
+  background: $background-color;
+  border: 1px solid $color-background-secondary;
+
+}
+
+  

@@ -7,6 +7,7 @@
 @import "pages/login&register";
 @import "pages/index";
 @import "pages/catalogue";
+@import "footer";
 
 
 
@@ -20,7 +21,7 @@
     .form__input--widht {
       width: 50%;
     }
-    .form__container--padding {
+    .register__container--padding {
       padding-top: 5em;
     }
     .searchBs {
@@ -33,7 +34,7 @@
 
 
     .w-100{
-        height: 70vh;
+        height: 85vh;
     }
     .carousel__text--align{
         bottom: 20%;
@@ -53,8 +54,19 @@
         width: 100%;
         height: 400px;
     }
+    .register__form{
+        width: 35%;
+        height: 85%;
+      }
+      
   
 
+}
+@media only screen and (max-width: 1024px) {
+    .register__form{
+        width: 60%;
+        margin: auto;
+      }
 }
 
 @media only screen and (max-width: 768px) {
@@ -111,6 +123,11 @@
     h4{
         font-size: 1.2rem;
     }
+    .register__form{
+        width: 90%;
+        height: 85%;
+        margin: auto;
+      }
   
 
 }
@@ -164,6 +181,10 @@
     h4{
         font-size: 1.2rem;
     }
+    .pushbar{
+        width: 80%!important;
+        
+    }
   }
   @media only screen and (max-width: 450px) {
     .searchBs{
@@ -178,7 +199,7 @@
         bottom: 10%;
     }
     .buttonPlay{
-        padding: 0.2em 2em ;
+        padding: 0.2em 1em ;
         font-size: 0.9em;
     }
     .containerMovieInfo .buttonInfo{
@@ -211,6 +232,11 @@
     h4{
         font-size: 0.9rem;
     }
+    .pushbar{
+        width: 100%!important;
+        
+        
+    }
 
   
 
@@ -232,6 +258,14 @@
         h4{
             font-size: 0.9rem;
         }
+        .register__form{
+            width: 100%;
+            height: 85%;
+            
+          }
+          .navbar{
+              padding: 0;
+          }
     
       
     
