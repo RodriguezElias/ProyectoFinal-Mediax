@@ -37,11 +37,6 @@
   background: #141313 !important;
 }
 
-.padding-0 {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
 .show > .nav-link,
 .active > .nav-link,
 .nav-link.show,
@@ -59,6 +54,10 @@
   -webkit-transform-origin: center;
           transform-origin: center;
   z-index: 1;
+}
+
+.card-text {
+  width: 100%;
 }
 
 .searchBs {
@@ -480,7 +479,7 @@ br {
     margin-bottom: 0.2rem;
   }
   .buttonPlay {
-    padding: 0.2em 2em;
+    padding: 0.4em 1.87em;
   }
   .containerMovieInfo .buttonInfo {
     padding: 0.2em 2em;
@@ -515,8 +514,8 @@ br {
     bottom: 10%;
   }
   .buttonPlay {
-    padding: 0.2em 1em;
-    font-size: 0.9em;
+    padding: 0.4em 1.5em;
+    font-size: 1em;
   }
   .containerMovieInfo .buttonInfo {
     padding: 0.2em 2em;
@@ -542,7 +541,6 @@ br {
   }
   .card-title {
     margin-bottom: 0rem;
-    font-size: 1.5rem;
   }
   br {
     display: block;

@@ -67,6 +67,9 @@
         width: 60%;
         margin: auto;
       }
+
+
+      
 }
 
 @media only screen and (max-width: 768px) {
@@ -165,7 +168,7 @@
         margin-bottom: 0.2rem;
     }
     .buttonPlay{
-        padding: 0.2em 2em;
+        padding: 0.4em 1.87em;
     }
     .containerMovieInfo .buttonInfo{
         padding: 0.2em 2em;
@@ -199,8 +202,8 @@
         bottom: 10%;
     }
     .buttonPlay{
-        padding: 0.2em 1em ;
-        font-size: 0.9em;
+        padding: 0.4em 1.5em ;
+        font-size: 1em;
     }
     .containerMovieInfo .buttonInfo{
         padding: 0.2em 2em ;
@@ -226,7 +229,7 @@
     }
     .card-title{
         margin-bottom: 0rem;
-        font-size: 1.5rem;
+        
     }
     br{display: block;}
     h4{

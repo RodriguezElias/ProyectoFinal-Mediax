@@ -10,10 +10,6 @@
     background: $color-background-primary !important;
   }
 
-.padding-0{
-    padding-right:0px;
-    padding-left:0px;
-}
 .show > .nav-link,
 .active > .nav-link,
 .nav-link.show,
@@ -28,6 +24,9 @@
   transform: scale(1.2)!important;
   transform-origin: center;
   z-index: 1;
+}
+.card-text{
+  width: 100%;
 }
 
 
